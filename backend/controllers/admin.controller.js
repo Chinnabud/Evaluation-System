@@ -1,4 +1,4 @@
-const prisma = require('../utils/db');
+import prisma from '@/lib/prisma'
 const AppError = require('../utils/AppError');
 
 // Evaluations
